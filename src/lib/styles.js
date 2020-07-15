@@ -83,15 +83,15 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 36,
+        lineHeight: 26,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 36,
+        lineHeight: 26,
       },
       
       [PlatformEnum.ANDROID]: {
-        lineHeight: 30,
+        lineHeight: 23,
       },
     }),
   },
@@ -109,14 +109,14 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 36,
+        lineHeight: 28,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 36,
+        lineHeight: 28,
       },      
       [PlatformEnum.ANDROID]: {
-        lineHeight: 30,
+        lineHeight: 25,
       },
     }),
   },
@@ -125,8 +125,8 @@ export const styles = StyleSheet.create({
     lineHeight: 20,
   },
   paragraph: {
-    marginTop: 10,
-    marginBottom: 10,
+    marginTop: 5,
+    marginBottom: 5,
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'flex-start',
