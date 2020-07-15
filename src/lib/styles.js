@@ -85,6 +85,11 @@ export const styles = StyleSheet.create({
       [PlatformEnum.IOS]: {
         lineHeight: 36,
       },
+      
+      [PlatformEnum.WEB]: {
+        lineHeight: 36,
+      },
+      
       [PlatformEnum.ANDROID]: {
         lineHeight: 30,
       },
@@ -106,6 +111,10 @@ export const styles = StyleSheet.create({
       [PlatformEnum.IOS]: {
         lineHeight: 36,
       },
+      
+      [PlatformEnum.WEB]: {
+        lineHeight: 36,
+      },      
       [PlatformEnum.ANDROID]: {
         lineHeight: 30,
       },
