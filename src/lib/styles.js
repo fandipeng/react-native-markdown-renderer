@@ -83,15 +83,15 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 26,
+        lineHeight: 36,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 26,
+        lineHeight: 36,
       },
       
       [PlatformEnum.ANDROID]: {
-        lineHeight: 23,
+        lineHeight: 30,
       },
     }),
   },
@@ -109,14 +109,14 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 28,
+        lineHeight: 36,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 28,
+        lineHeight: 36,
       },      
       [PlatformEnum.ANDROID]: {
-        lineHeight: 25,
+        lineHeight: 30,
       },
     }),
   },
@@ -125,13 +125,16 @@ export const styles = StyleSheet.create({
     lineHeight: 20,
   },
   paragraph: {
-    marginTop: 5,
-    marginBottom: 5,
+    
+    marginTop: 10,
+    marginBottom: 10,
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
   },
+
+
   hardbreak: {
     width: '100%',
     height: 1,
@@ -160,7 +163,12 @@ export const styles = StyleSheet.create({
     flex: 1,
     padding: 5,
   },
-  text: {},
+  text: {
+    fontSize:16,
+    fontWeight:"400",
+    color:"#212121",
+    textAlign:"justify"
+  },
   strikethrough: {
     textDecorationLine: 'line-through',
   },
