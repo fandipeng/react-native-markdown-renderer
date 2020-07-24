@@ -32,21 +32,27 @@ export const styles = StyleSheet.create({
   },
   heading: {},
   heading1: {
+    marginTop:10,
     fontSize: 32,
   },
   heading2: {
+    marginTop:10,
     fontSize: 24,
   },
   heading3: {
+    marginTop:10,
     fontSize: 18,
   },
   heading4: {
+    marginTop:10,
     fontSize: 16,
   },
   heading5: {
+    marginTop:10,
     fontSize: 13,
   },
   heading6: {
+     marginTop:10,
     fontSize: 11,
   },
   hr: {
@@ -83,15 +89,15 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 36,
+        lineHeight: 25,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 36,
+        lineHeight: 25,
       },
       
       [PlatformEnum.ANDROID]: {
-        lineHeight: 30,
+        lineHeight: 25,
       },
     }),
   },
@@ -109,14 +115,14 @@ export const styles = StyleSheet.create({
     marginRight: 10,
     ...Platform.select({
       [PlatformEnum.IOS]: {
-        lineHeight: 36,
+        lineHeight: 25,
       },
       
       [PlatformEnum.WEB]: {
-        lineHeight: 36,
+        lineHeight: 25,
       },      
       [PlatformEnum.ANDROID]: {
-        lineHeight: 30,
+        lineHeight: 25,
       },
     }),
   },
@@ -125,9 +131,7 @@ export const styles = StyleSheet.create({
     lineHeight: 20,
   },
   paragraph: {
-    
-    marginTop: 10,
-    marginBottom: 10,
+    marginTop:5,
     flexWrap: 'wrap',
     flexDirection: 'row',
     alignItems: 'flex-start',
@@ -164,10 +168,10 @@ export const styles = StyleSheet.create({
     padding: 5,
   },
   text: {
-    fontSize:16,
+    fontSize:15,
     fontWeight:"400",
     color:"#212121",
-    textAlign:"justify"
+   
   },
   strikethrough: {
     textDecorationLine: 'line-through',
